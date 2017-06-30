@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600|Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+    * {
+    	margin: 0px;
+    	padding: 0px; 
+    	border:  1px solid black;
+    }
+
+    .main-wrap {
+    	background: lightblue;
+    	display: flex;
+
+
+    }
+    .main-wrap header {
+    	background:yellow;
+    	width: 135px;
+	}
+	.header-position {
+		position:fixed;
+		min-height: 100vh;
+		display: flex;
+    	flex-direction: column;
+    	justify-content: space-between;
+	}
+
+    .home-wrap {
+    	background:pink;
+    }
+
+    .home-wrap {
+    	margin-left: 135px;
+    	width: 100%;
+    }
+    .logo {
+    	padding-top: 5%;
+    }
+    
+    .nav-middle li{
+    	padding-top: 30px;
+    	text-align: right;
+    	padding-right: 20px;
+    }
+
+    .nav-bottom {
+    	padding-bottom: 20px;
+    	text-align: right;
+    	padding-right: 20px;
+    }
+
+    .mail-to {
+    	padding-bottom: 10px;
+    }
+
+    .facebook, .linkedin {
+    	display: inline;
+    	float: right;
+    	padding-left: 20px;
+    }
+
+
+    </style>
+</head>
+
+<div class="main-wrap">
+	<header class="header-position">
+		<h1 class="logo hide-text">Yekai Peng</h1>
+		<ul class="nav-middle">
+			<li><a href="#about">About</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#blog">Blog</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		
+		<ul class="nav-bottom">
+			<li class="mail-to"><a href="mailto: yekai.peng@gmail.com">+email me</a></li>
+			<li class="facebook"><a href="http://www.facebook.com/ilikeadham" title="Like me on Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li class="linkedin"><a href="http://au.linkedin.com/in/adhamdannaway" title="Connect with me on Linkedin" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+	</header>
+	<div class="home-wrap">
+		<div class="home-section" style="height:2000px;"><p>This is the Home section</p></div>
+	</div>
+</div>
+
+
+
+
+</html>
